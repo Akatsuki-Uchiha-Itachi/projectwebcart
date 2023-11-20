@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "production": "webcart",
+    "webcart": "projectwebcart"
+  },
+  "targets": {},
+  "etags": {}
+}
