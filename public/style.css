@@ -55,9 +55,21 @@ p{
 .row{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
     justify-self: space-between;
     margin-left: 1rem;
+}
+
+.team-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 1rem;
+    padding: 10px;
+    margin-right: 20px; 
+    min-width: 250px;
+    margin-bottom: 30px;
 }
 .col-2{
     flex-basis: 50%;
@@ -104,6 +116,13 @@ p{
 .col-3{
     flex-basis: calc(30% - 20px);
     flex-direction: column;
+    padding: 10px;
+    margin-right: 20px; 
+    min-width: 250px;
+    margin-bottom: 30px;
+}
+.team-col{
+    
     padding: 10px;
     margin-right: 20px; 
     min-width: 250px;
@@ -291,7 +310,7 @@ small{
 /* Your existing styles might be here */
 
 .card {
-    width: 100%; /* Take up 100% width of the column */
+    width: 30%; /* Take up 100% width of the column */
     border: 1px solid #ddd;
     border-radius: 8px;
     overflow: hidden;

@@ -1,14 +1,14 @@
-[debug] [2023-11-20T21:40:51.293Z] ----------------------------------------------------------------------
-[debug] [2023-11-20T21:40:51.297Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\raviarya2\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
-[debug] [2023-11-20T21:40:51.298Z] CLI Version:   12.9.1
-[debug] [2023-11-20T21:40:51.298Z] Platform:      win32
-[debug] [2023-11-20T21:40:51.298Z] Node Version:  v16.15.1
-[debug] [2023-11-20T21:40:51.310Z] Time:          Tue Nov 21 2023 03:10:51 GMT+0530 (India Standard Time)
-[debug] [2023-11-20T21:40:51.311Z] ----------------------------------------------------------------------
+[debug] [2023-11-20T21:54:09.054Z] ----------------------------------------------------------------------
+[debug] [2023-11-20T21:54:09.062Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\raviarya2\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting
+[debug] [2023-11-20T21:54:09.063Z] CLI Version:   12.9.1
+[debug] [2023-11-20T21:54:09.063Z] Platform:      win32
+[debug] [2023-11-20T21:54:09.064Z] Node Version:  v16.15.1
+[debug] [2023-11-20T21:54:09.076Z] Time:          Tue Nov 21 2023 03:24:09 GMT+0530 (India Standard Time)
+[debug] [2023-11-20T21:54:09.077Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2023-11-20T21:40:51.447Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2023-11-20T21:40:51.448Z] > authorizing via signed-in user (raviarya4542@gmail.com)
-[debug] [2023-11-20T21:40:51.448Z] [iam] checking project projectwebcart for permissions ["firebase.projects.get","firebasehosting.sites.update"]
-[debug] [2023-11-20T21:40:51.455Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/projectwebcart:testIamPermissions [none]
-[debug] [2023-11-20T21:40:51.455Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/projectwebcart:testIamPermissions x-goog-quota-user=projects/projectwebcart
-[debug] [2023-11-20T21:40:51.456Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/projectwebcart:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2023-11-20T21:54:09.232Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-11-20T21:54:09.233Z] > authorizing via signed-in user (raviarya4542@gmail.com)
+[debug] [2023-11-20T21:54:09.234Z] [iam] checking project projectwebcart for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2023-11-20T21:54:09.241Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/projectwebcart:testIamPermissions [none]
+[debug] [2023-11-20T21:54:09.242Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/projectwebcart:testIamPermissions x-goog-quota-user=projects/projectwebcart
+[debug] [2023-11-20T21:54:09.242Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/projectwebcart:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
